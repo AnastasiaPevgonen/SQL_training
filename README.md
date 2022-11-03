@@ -30,3 +30,6 @@ ALTER TABLE person ADD new_column_name DECIMAL(3,2); # to add a new column to th
 ALTER TABLE person DROP COLUMN existing_column_name; #to delete one specified column from the specified table person
 
 INSERT INTO my_table VALUES(val1_column1, val2_column2, ... val_columnN); #insert data into the rows for each specific column
+
+INSERT INTO my_table  VALUES(id, first_name, last_name) VALUES(3,'Anna','Smith');
+#to insert data into some specific columns and not in the ones you have no

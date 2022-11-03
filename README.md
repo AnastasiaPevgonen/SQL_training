@@ -17,6 +17,6 @@ CREATE TABLE person(
 
   );
 
-  #to create a table with called person that has columns: id numeric, fist ame in text (20) and last name (20)
+  #to create a table with called person that has columns: id numeric, fist name in text (20) and last name (20)
 
-  
+  SHOW TABLES; #to show all available tables in the current databases

@@ -25,4 +25,6 @@ CREATE TABLE person(
 
 DROP TABLE person; #to delete a complete table person
 
-ALTER TABLE person ADD new_column-name DECIMAL(3,2); # to add a new column to the table person and name the column in text (20)
+ALTER TABLE person ADD new_column_name DECIMAL(3,2); # to add a new column to the table person and name the column in text (20)
+
+ALTER TABLE person DROP COLUMN existing_column_name; #to delete one specified column from the specified table person

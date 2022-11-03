@@ -23,4 +23,6 @@ CREATE TABLE person(
 
   SELECT * FROM person; # to select everything form a specified table and demonstrate it
 
-  
+DROP TABLE person; #to delete a complete table person
+
+ALTER TABLE person ADD new_column-name DECIMAL(3,2); # to add a new column to the table person and name the column in text (20)

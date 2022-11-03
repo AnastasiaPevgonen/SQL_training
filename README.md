@@ -20,3 +20,7 @@ CREATE TABLE person(
   #to create a table with called person that has columns: id numeric, fist name in text (20) and last name (20)
 
   SHOW TABLES; #to show all available tables in the current databases
+
+  SELECT * FROM person; # to select everything form a specified table and demonstrate it
+
+  

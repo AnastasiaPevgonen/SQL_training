@@ -28,3 +28,5 @@ DROP TABLE person; #to delete a complete table person
 ALTER TABLE person ADD new_column_name DECIMAL(3,2); # to add a new column to the table person and name the column in text (20)
 
 ALTER TABLE person DROP COLUMN existing_column_name; #to delete one specified column from the specified table person
+
+INSERT INTO my_table VALUES(val1_column1, val2_column2, ... val_columnN); #insert data into the rows for each specific column

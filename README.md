@@ -43,3 +43,6 @@ SELECT * FROM table WHERE name = 'Anastasia'; #to read and see the column with t
 SELECT * FROM table WHERE age > 17; #to read data where students are older than 17
 
 SELECT brand FROM table WHERE ram = 8; # to read only those brands where ram is  greater than 8
+
+UPDATE table SET my_column = 'newValue';
+#to modify the column my_column with a new VALUES

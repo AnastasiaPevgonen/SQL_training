@@ -38,4 +38,8 @@ SELECT s_first_name, age FROM people; #to read or see only first name and age of
 
 INT PRIMARY KEY AUTO_INCREMENT #to out the numbers into  the columns
 
-SELECT FROM table WHERE name = 'Anastasia'; #to read and see the column with the name Anastasia
+SELECT * FROM table WHERE name = 'Anastasia'; #to read and see the column with the name Anastasia
+
+SELECT * FROM table WHERE age > 17; #to read data where students are older than 17
+
+SELECT brand FROM table WHERE ram = 8; # to read only those brands where ram is  greater than 8

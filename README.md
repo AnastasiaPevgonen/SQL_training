@@ -46,3 +46,12 @@ SELECT brand FROM table WHERE ram = 8; # to read only those brands where ram is 
 
 UPDATE table SET my_column = 'newValue';
 #to modify the column my_column with a new VALUES
+
+UPDATE student SET description = 'he studied well' WHERE s_name = 'John';
+#to modify the column description with the wording 'he studied well' for the student John
+
+UPDATE product SET price=100 WHERE name LIKE '%pants%';
+#to modify the column price with 100 for all the items with 'pants' - like Nike pants, Adidas pants, etc.
+
+UPDATE computer SET ram=100 WHERE brand IN('Apple','Samsung','Asus');
+#to modify column ram with 100 for all the specified brands - Apple, Samsung, Asus

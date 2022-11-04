@@ -35,3 +35,7 @@ INSERT INTO my_table  VALUES(id, first_name, last_name) VALUES(3,'Anna','Smith')
 #to insert data into some specific columns and not in the ones you have no
 
 SELECT s_first_name, age FROM people; #to read or see only first name and age of people
+
+INT PRIMARY KEY AUTO_INCREMENT #to out the numbers into  the columns
+
+SELECT FROM table WHERE name = 'Anastasia'; #to read and see the column with the name Anastasia

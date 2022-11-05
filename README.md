@@ -4,19 +4,19 @@
 
 
 #### CREATE DATABASE
-
 ```
 CREATE DATABASE my_first_database; # to create a database
 ```
 
 #### SHOW DATABASES
-
 ```
 SHOW DATABASES; # to show all the databases available
 ```
 
-
+#### USE database
+```
 USE my_first_database; # to enter the database needed
+```
 
 CREATE TABLE person(
 

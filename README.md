@@ -94,6 +94,8 @@ DELETE FROM student WHERE name='John'; #to delete data only from the column with
 DELETE FROM  computer WHERE age=12  AND brand='Asus'; #to delete from columns where age=12 and brand is Asus
 ```
 
-#### TRUNCATE table  
-```TRUNCATE student; #to delete all data from all table called student
+#### TRUNCATE table
+
+```
+TRUNCATE student; #to delete all data from all table called student
 ```

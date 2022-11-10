@@ -99,3 +99,22 @@ DELETE FROM  computer WHERE age=12  AND brand='Asus'; #to delete from columns wh
 ```
 TRUNCATE student; #to delete all data from all table called student
 ```
+
+#### JOIN
+```
+SELECT m.column_1,f.column_2
+FROM members m
+INNER JOIN footballers f USING(name)
+or
+INNER JOIN footballers f ON m.name=f.name;
+#create a new table with the column_1 and column_2 using the matching part m.name=f.s_name
+```
+
+#### LEFT JOIN
+#all the same, but plus include the remaining rows from LEFT table
+
+#### RIGHT JOIN
+#all the same, but plus include the remaining rows from the RIGHT table
+
+#### FULL OUTER JOIN
+#all the same, but plus include the remaining rows from both left and right tables
